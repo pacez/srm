@@ -1,0 +1,65 @@
+[2015-12-11 16:55:15.327] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 16:55:15.330] [ERROR] log_error - db open error
+[2015-12-11 16:55:42.081] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 16:55:42.081] [ERROR] log_error - db open error
+[2015-12-11 17:12:27.647] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:12:27.649] [ERROR] log_error - db open error
+[2015-12-11 17:42:59.467] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:42:59.469] [ERROR] log_error - db open error
+[2015-12-11 17:43:40.626] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:43:40.629] [ERROR] log_error - db open error
+[2015-12-11 17:43:44.581] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:43:44.582] [ERROR] log_error - db open error
+[2015-12-11 17:43:47.487] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:43:47.487] [ERROR] log_error - db open error
+[2015-12-11 17:44:26.295] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:44:26.295] [ERROR] log_error - db open error
+[2015-12-11 17:44:29.929] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:44:29.930] [ERROR] log_error - db open error
+[2015-12-11 17:44:31.634] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:44:31.634] [ERROR] log_error - db open error
+[2015-12-11 17:44:33.516] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:44:33.516] [ERROR] log_error - db open error
+[2015-12-11 17:44:39.340] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 17:44:39.340] [ERROR] log_error - db open error
+[2015-12-11 20:23:54.401] [ERROR] log_error - { [MongoError: connect ECONNREFUSED] name: 'MongoError', message: 'connect ECONNREFUSED' }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2015-12-11 20:23:54.405] [ERROR] log_error - db open error

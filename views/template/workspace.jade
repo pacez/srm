@@ -1,0 +1,17 @@
+doctype html
+html
+	include header
+	body
+		nav.nospace
+			.nav-wrapper.blue.darken-2.nospace
+				h1.logo 
+					a(href='/') #{pageConfig.projectName}
+					span.desc 邮件在线编辑器
+				include menu
+				span.tips.green Save & Run :  Mac (command+s) | Win (ctrl+s)
+		.content
+			.row.nospace
+				#left.col.l7.nospace
+					block htmlEditor
+				#right.col.l5.nospace.fullHeight
+					block htmlPreview

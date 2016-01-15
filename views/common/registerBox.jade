@@ -1,0 +1,61 @@
+#registerBox.modal.form-modal.modal-fixed-footer
+  .modal-content
+    h4 
+      i.mdi-image-wb-cloudy.prefix
+      | &nbsp;快速注册
+    .loginBox
+      .row
+        form#registerForm.col.s12
+          .row
+            .input-field.col.s6
+              input#name(type='text' name="user" autocomplete="off")
+              label(for='name') 用户名
+            .input-field.col.s6
+              input#name(type='text' name="nickName" autocomplete="off")
+              label(for='name') 昵称
+          .row
+            .input-field.col.s6
+              input#password(type='password' name="pwd" autocomplete="off" class="validate")
+              label(for='password') 密码
+            .input-field.col.s6
+              input#password(type='password' name="confirmPwd"  autocomplete="off")
+              label(for='password') 确认密码
+          .row
+            .input-field.col.s12
+              input#email(type='email' name="email" class="validate" autocomplete="off")
+              label(for='email') 邮箱
+          .row
+            .input-field.col.s12
+              label 擅长领域
+          .row
+            .input-field.col.s3
+              input(type="checkbox" id="fe" name="goodAt" value="fe")
+              <label for="fe">前端</label>
+            .input-field.col.s3
+              input(type="checkbox" id="design" name="goodAt" value="design")
+              <label for="design">设计</label>
+            .input-field.col.s3
+              input(type="checkbox" id="product" name="goodAt" value="product")
+              <label for="product">产品</label>
+            .input-field.col.s3
+              input(type="checkbox" id="db" name="goodAt" value="db")
+              <label for="db">数据库</label>
+          .row
+            .input-field.col.s3
+              input(type="checkbox" id="java" name="goodAt" value="java")
+              <label for="java">JAVA</label>
+            .input-field.col.s3
+              input(type="checkbox" id="net" name="goodAt" value="net")
+              <label for="net">.NET</label>
+            .input-field.col.s3
+              input(type="checkbox" id="python" name="goodAt" value="python")
+              <label for="python">PYTHON</label>
+            .input-field.col.s3
+              input(type="checkbox" id="php" name="goodAt" value="php")
+              <label for="php">PHP</label>
+
+  .modal-footer
+    a.modal-action.modal-close.waves-effect.waves-green.btn-flat(href='#!') 关闭
+    a#registerBtn.waves-effect.waves-green.btn-flat(href='#!') 提交
+script(type="application/javascript", src="/javascripts/common/register.js")
+  

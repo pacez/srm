@@ -1,0 +1,15 @@
+extends template/workspace
+block beforeJS
+  script(src="/javascripts/common/codeEditor.js" type="application/javascript")
+  
+block htmlEditor
+  div#htmlEditor
+    textarea(id="htmlEditorTextarea" placeholder="Code goes here..." name="htmlEditorTextarea") #{code}
+  div.clearfix.sub-title 邮件模板html：
+  div#parseResult
+    textarea(id="htmlParseResult" disabled="disabled" placeholder="result is here..." name="htmlEditorTextarea") #{parsedCodeStr}
+    
+block htmlPreview
+  .htmlPreview.fullHeight
+    iframe(id="previewIframe" src="/workspace/preview?id=#{urlId}", border="0" width="100%" height="100%")
+    input(type="hidden",value="#{urlId}",id="urlId")

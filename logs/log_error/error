@@ -1,0 +1,23 @@
+[2015-12-17 13:45:09.407] [ERROR] log_error - test
+[2015-12-17 15:30:23.185] [ERROR] log_error - { [MongoError: Authentication failed.]
+  name: 'MongoError',
+  message: 'Authentication failed.',
+  ok: 0,
+  code: 18,
+  errmsg: 'Authentication failed.' }
+MongoError: Authentication failed.
+    at Function.MongoError.create (/Users/pacez/Documents/workspace/srm/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/pacez/Documents/workspace/srm/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:763:66
+    at Callbacks.emit (/Users/pacez/Documents/workspace/srm/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:95:3)
+    at null.messageHandler (/Users/pacez/Documents/workspace/srm/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:243:23)
+    at Socket.<anonymous> (/Users/pacez/Documents/workspace/srm/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:262:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+[2015-12-17 19:25:44.170] [ERROR] log_error - { [MongoError: getaddrinfo ENOTFOUND accountUser]
+  name: 'MongoError',
+  message: 'getaddrinfo ENOTFOUND accountUser' }
+Error: getaddrinfo ENOTFOUND accountUser
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
