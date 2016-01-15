@@ -26,20 +26,20 @@ log4js.configure({
       "backups": 10
     }, {
       "category": "log_stat",
-      "type": "datefile",
+      "type": "file",
       "filename": "./logs/log_stat/stat"
     }, {
       "category": "log_trace",
-      "type": "datefile",
+      "type": "file",
       "filename": "./logs/log_trace/trace"
     }, {
       "category": "log_error",
-      "type": "datefile",
+      "type": "file",
       "filename": "./logs/log_error/error"
 
     }, {
       "category": "log_todo",
-      "type": "datefile",
+      "type": "file",
       "filename": "./logs/log_todo/todo"
     }
   ],
