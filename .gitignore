@@ -1,5 +1,6 @@
 .DS_Store
 min
 src/demo
+node_modules
 *.css
 .sass-cache
