@@ -46,7 +46,7 @@ router.get('', function(req, res, next) {
             })
           }else{
             //数据库没有这个id,重定向到工作平台首页
-            res.redirect('/workspace')
+            res.redirect('/srm/workspace')
           }
         }
       })

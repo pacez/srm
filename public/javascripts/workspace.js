@@ -56,11 +56,11 @@ $(function(){
         var queryId=getQueryString("id")
         if(!queryId){
           //在新页面，执行run时，刷新页面带上urlId;
-          window.location.href="/workspace?id="+urlId;
+          window.location.href="/srm/workspace?id="+urlId;
         }else{
           //window.location.reload();
           //在已有id的页面，执行run时，仅异步刷新预览界面与邮件模板html编辑器，
-          $("#previewIframe").attr("src","/workspace/preview?id="+urlId);
+          $("#previewIframe").attr("src","/srm/workspace/preview?id="+urlId);
           htmlParseResultEditor.setValue(data.result.parsedCodeStr);
         }
         msg.destory();

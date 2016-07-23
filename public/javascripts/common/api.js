@@ -15,8 +15,8 @@
   api=window.api={};
 
   api.url={
-    run: '/workspace/run',
-    login: '/api/login'
+    run: '/srm/workspace/run',
+    login: '/srm/api/login'
   };
 
   api.ajaxQueue={};
