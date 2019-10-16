@@ -25,7 +25,7 @@ useage: new codeEditor({id:id,mode:mode});
         offset=$htmlEditor.offset(),
         top=offset.top;
         if(isSetHeight){
-          var setHeight=($(window).height()-top)/1.5;
+          var setHeight=($(window).height()-top)/1.2;
         }else{
           var setHeight=($(window).height()-top);
         }

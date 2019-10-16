@@ -6,3 +6,33 @@ Error: connect ECONNREFUSED
 Error: connect ECONNREFUSED
     at exports._errnoException (util.js:746:11)
     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+[2019-10-16 14:32:39.897] [ERROR] log_error - { Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }
+Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+[2019-10-16 14:34:04.046] [ERROR] log_error - { Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }
+Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+[2019-10-16 14:36:28.535] [ERROR] log_error - { Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }
+Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+[2019-10-16 16:04:58.754] [ERROR] log_error - { Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }
+Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+[2019-10-16 16:05:28.623] [ERROR] log_error - { Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }
+Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
